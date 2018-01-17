@@ -99,6 +99,7 @@ Partial Class Upgrade
         Me.ClientSize = New System.Drawing.Size(301, 217)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
+        Me.MaximizeBox = False
         Me.Name = "Upgrade"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Upgrade"

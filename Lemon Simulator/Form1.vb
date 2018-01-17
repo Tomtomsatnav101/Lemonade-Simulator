@@ -1,19 +1,19 @@
 ﻿Public Class player
-    'Private lemons As Integer
-    'Private ice As Integer
-    'Private sugar As Integer
+    Private lemons As Integer
+    Private ice As Integer
+    Private sugar As Integer
 
-    'Private reputation As Double
-    'Private customers As Integer
-    'Private progress As Double
-    'Private varience As Integer
-    'Private actualsales As Integer
+    Private reputation As Double
+    Private customers As Integer
+    Private progress As Double
+    Private varience As Integer
+    Private actualsales As Integer
 
-    'Private ideallemon As Double
-    'Private idealice As Double
-    'Private idealsugar As Double
-    'Private idealhot As Integer
-    'Private idealcold As Double
+    Private ideallemon As Double
+    Private idealice As Double
+    Private idealsugar As Double
+    Private idealhot As Integer
+    Private idealcold As Double
 
 End Class
 
@@ -218,4 +218,7 @@ Public Class Form1
 
     End Sub
 
+    Private Sub Form1_Closed(sender As Object, e As EventArgs) Handles Me.Closed
+        End
+    End Sub
 End Class

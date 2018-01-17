@@ -79,4 +79,8 @@
 
         End If
     End Sub
+    Private Sub Log_in_Closed(sender As Object, e As EventArgs) Handles Me.Closed
+        End
+    End Sub
+
 End Class
