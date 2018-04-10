@@ -70,6 +70,8 @@
                 Form1.Label6.Text = 100
                 Database.database(Database.usercount).expected = 100
                 number = usercount
+                Database.database(Database.usercount).ID = number
+
                 Me.Hide()
                 Form1.Show()
             Else
